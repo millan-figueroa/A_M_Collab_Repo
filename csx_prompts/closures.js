@@ -62,3 +62,24 @@ with the second string (of a saved pair).*/
 // console.log(changeScene('The quick, brown fox jumps over the lazy dogs.')); 
 // should log: 'The slow, brown fox jumps over the lazy cats.'
 
+function after(count, func) {
+    let timesCalled = 0;
+
+      return () => {
+
+        timesCalled++;
+
+        if (timesCalled === count){
+          return func();
+
+        } else {          
+          return undefined;
+        }
+      }
+    }
+    // /*** Uncomment these to check your work! ***/
+    const called = function() { console.log('hello') };
+    const afterCalled = after(3, called);
+    console.log(afterCalled()); // => nothing is printed
+    console.log(afterCalled()); // => nothing is printed
+    console.log(afterCalled()); // => 'hello' is printed
