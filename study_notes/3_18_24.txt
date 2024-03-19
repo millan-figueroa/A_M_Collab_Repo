@@ -20,8 +20,7 @@ once you recall, REPEAT REPEAT REPEAT !
 
 Class on ANKI!
 
-Action items
-
+Homework:
 * Adry: Set Chrome as default browser
 * Adry: Figure out DND on computer
 * Adry: Make CSX file inside programming folder on your computer
