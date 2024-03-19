@@ -43,3 +43,5 @@ Homework:
 1:00 / 4:00 Break
 1:30 / 4:30 Meet about study group
 2:00 / 5:00 Study Group
+
+- Do Queue problem with Chris or Christie bc i dont understand it
