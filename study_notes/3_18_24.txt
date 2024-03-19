@@ -25,8 +25,8 @@ Homework:
 * Adry: Figure out DND on computer
 * Adry: Make CSX file inside programming folder on your computer
 * Adry: Put finished problems in CSX vscode file and save them
-* Practice spaced rep
-* Watch Ali Abdaal vid
+* Practice spaced rep 
+* Watch Ali Abdaal vid 
 * Play with ANKI app
 * Millan: send ADHD playlist
 * Decide which vids to watch tomorrow
@@ -36,10 +36,9 @@ Homework:
 3/19/24
 
 10:30 / 1:30 Check-in
-10:45 / 1:45 POD1
-11:00 / 2 Watch Leon vids
-11:30 / 2:30 Discuss then watch next vid
-12:00 / 3:00 Planning
+10:45 / 1:45 Created Github repo for study notes
+11:30 / 12:30 POD1
+12:00 / 2:30 Discuss then watch next vid
 12:30 / 3:30 POD2
 1:00 / 4:00 Break
 1:30 / 4:30 Meet about study group
