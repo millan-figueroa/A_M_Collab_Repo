@@ -45,3 +45,65 @@ Homework:
 2:00 / 5:00 Study Group
 
 - Do Queue problem with Chris or Christie bc i dont understand it
+
+************************************************************************************
+
+3/20/24
+
+💬 Daily Schedule
+
+10:30 / 1:30 Check-in (hw, re-structure, transtech, agenda making, adhd hour)
+11:00 / 2 POD1
+11:15 / 2:15 Study Plan/ Learning Strategy Vids & Planning
+12:30 / 3:30 POD2
+1:00 / 4:00 Lunch/ Dinner
+4:00 / 7:00 Workshop: Whiteboarding for Interviews
+5:30 / 8:30 Workshop: Tech Job Market in 2024
+
+****V I D E O  N O T E S Ultimate Study Tutorial (G R O W Method)
+Grid - create a grid of your study topics
+Rate - rate your difficulty using colors (red: clueless, yellow: needs work, green: understand)
+Overall Outcome
+Weakest - practice the red ones more
+** H I G H L I G H T S
+Think of your knowledge about topics as plants u gotta water so they grow
+If lots of same color use last reviewed date
+Prevents over studying easy topics
+??? Q U E S T I O N S ????
+Prospective review schedule?
+Google sheets or Notion Template?
+How do we customize it to learning code other than memorizing vocab?
+**We decided GROW over ANKI would meet our needs best
+
+
+✅ Action items Millan 
+* Practice OOP Problems
+* send screenshot of files
+* Test and update zoom link
+* Send browser migration tutorial
+* Upload any notes to studynotes file on A_M_Collab_Repo
+* Study group post with updated link
+
+
+✅ Action items Adry 
+* Fill out and send voluteer app for TechSummit
+* Start GROW Spreadsheet
+* Create your empty CSX GH repo
+* CSX Precourse 1 & 2 while uploading solutions to repo
+* Upload any notes to studynotes file on A_M_Collab_Repo
+
+
+Whiteboarding Workshop Notes (Get slides from Amanda/ Matt):
+
+Understand the Problem
+Create inputs and edge cases
+Pseudo code solution in high level strategy
+Write the solution
+Test the solution
+Evaluate the solution
+
+Once question is clear, produce concrete inputs and outputs.
+
+Understanding prlbme, pseudo coding, explaining shld take about 30% of your time
+Do not talk while facing the board
+structi , codewith mosh, neetcode
