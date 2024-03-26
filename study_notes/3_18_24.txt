@@ -92,6 +92,35 @@ How do we customize it to learning code other than memorizing vocab?
 * CSX Precourse 1 & 2 while uploading solutions to repo
 * Upload any notes to studynotes file on A_M_Collab_Repo
 
+TEch Job Market Notes
+TTeams are changing to integrate 'stochastic' (unpredictable)
+New tools to come but timeless principles & capacities become even more important
+Long term engineers
+5-15% didn't offset covid hiring, 22% layoffs, 28% recruiting in 22-23 layoffs.. 80% found new roles in 3 months
+-VC investments cut
+-In other industries layoffs like this are normal cycle, layoffs not as important as hiring freezes, venture capital investments cut
+-System design is super important
+-ML
+-How to define the AI's workflow
+-What at they hiring for? Not who. Convert society and team needs into tech systems (software)
+- Frontend: HTML, CSS, Browser JS APIs, UI frameworks
+-React is falling
+-Next JS
+-Web systems - http, browser environment(DOM)
+-Servers/ Databases: Node, SQL, Redis, DJango
+-Infrastructure: AWS, Docker, Kubernetes, Azure
+-Dev tooling: Git, Bash scripting, Co-pilots, CI/CD
+-ML adjacent: Data pipeline, API/Model deployment, Infrastructure, UX
+-Programming lang: JS/Typescript, Python, Java, Go, Rust
+Engineer understands the role of technology in systems
+Technology implementation but with a new level of capacity
+As a human wrestling with vast complexities and improve data and functionality, make it intuitive (edited) .
+Fundamentals, Design/Architecture,
+profiles in tech
+Ability to turn client's needs into solutions, break down complex challenges and develop strategy for solving them
+Domain knowledge
+Building with stochastic element
+
 
 Whiteboarding Workshop Notes (Get slides from Amanda/ Matt):
 
