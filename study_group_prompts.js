@@ -6,10 +6,48 @@
 Create a functon "buildSentence" that takes three words (strings)and returns the full sentence 
 complete with capitalization at the beginning of the sentence and punctuation (add an exclamation 
 point to each sentence).
-
-
-
 --------------------------------------------------------*/
+function buildSentence(word1, word2, word3) {
+    // Capitalize the first letter of the first word
+    const capitalizedWord1 = word1.charAt(0).toUpperCase() + word1.slice(1);
+    
+    // Capitalize the first letter of the second word
+    const capitalizedWord2 = word2.charAt(0).toUpperCase() + word2.slice(1);
+    
+    // Capitalize the first letter of the third word
+    const capitalizedWord3 = word3.charAt(0).toUpperCase() + word3.slice(1);
+    
+    // Concatenate the words and add an exclamation point
+    const sentence = capitalizedWord1 + ' ' + capitalizedWord2 + ' ' + capitalizedWord3 + '!';
+
+    return sentence;
+}
+
+// Example usage
+console.log(buildSentence('hello', 'world', 'welcome')); // Output: Hello World Welcome!
+
+/* REVERSE STRING AT CHAR
+--------------------------------------------------------
+Write a function that reverses all the words in a sentence that start with a particular letter.
+
+Examples
+specialReverse("word searches are super fun", "s")
+➞ "word sehcraes are repus fun"
+
+specialReverse("first man to walk on the moon", "m")
+➞ "first nam to walk on the noom"
+
+specialReverse("peter piper picked pickled peppers", "p")
+➞ "retep repip dekcip delkcip sreppep"
+*/
+
+
+/* REVERSE STRING
+--------------------------------------------------------
+Write a function that takes in a string, and reverses the words in a string*/
+
+
+
 /* COMBINE NUMBERS
 --------------------------------------------------------
 
@@ -18,13 +56,76 @@ number. combineNum is going to return a number that is the highest combination o
 passed in array with the length of value. If the array cannot be combined to make the number reach 
 the value of length, return "combine not possible".
 
-SOLUTION
 console.log(combineNum([4,6,1,8,2],4)) //=> 8642
 console.log(combineNum([4,9,1,8,2],6)) // => combine not possible
 console.log(combineNum([7,9,1,8,2],3)) //=> 987
 
 --------------------------------------------------------*/
 
+function combineNum(nums, length) {
+  // Sort the array of numbers in descending order
+  nums.sort((a, b) => b - a);
+
+  // Check if the array can be combined to make the number reach the desired length
+  if (nums.map(num => String(num).length).reduce((a, b) => a + b, 0) < length) {
+      return "combine not possible";
+  }
+
+  // Initialize an empty string to store the combined number
+  let combinedNumber = '';
+
+  // Combine numbers from the array to form the highest combination
+  for (const num of nums) {
+      combinedNumber += String(num);
+      // If the length of combined number reaches or exceeds the desired length, break the loop
+      if (combinedNumber.length >= length) {
+          break;
+      }
+  }
+
+  // If the length of the combined number is less than the desired length, return "combine not possible"
+  if (combinedNumber.length < length) {
+      return "combine not possible";
+  }
+
+  return parseInt(combinedNumber);
+}
+
+// Example usage:
+console.log(combineNum([50, 2, 1, 9], 5));  // Output: 95021
+console.log(combineNum([5, 2, 1, 9], 5));   // Output: 95120
+console.log(combineNum([5, 2, 1, 9], 6));   // Output: combine not possible
+
+/*
+  Write a function that returns an anonymous function, which transforms its input by adding a particular suffix at the end.
+  
+  add_ly = add_suffix("ly")
+  
+  add_ly("hopeless") ➞ "hopelessly"
+  add_ly("total") ➞"totally"
+  
+  add_less = add_suffix("less")
+  
+  add_less("fear") ➞ "fearless"
+  add_less("ruth") ➞ "ruthless"
+  */
+  
+  function add_suffix(suffixAdder) {
+    return function(input) {
+      return input + suffixAdder
+    }
+  }
+  
+  const add_ly = add_suffix("ly")
+  
+  console.log(add_ly("hopeless")) //➞ "hopelessly"
+  console.log(add_ly("total")) //➞"totally"
+  
+  const add_less = add_suffix("less")
+  
+  console.log(add_less("fear")) //➞ "fearless"
+  console.log(add_less("ruth")) //➞ "ruthless"
+   /*
 
 
 /**************** CLOSURE ****************/
@@ -38,7 +139,7 @@ it should run the callback on the passed-in argument and return that value, then
 that specific argument to be ready for the next time. However, the next invocation at the K-th time on 
 the same value, it should run the callback with the previous returned value as the argument. And if 
 it's not the time to run the callback, return 'Please invoke the function *time* time(s) more with 
-*argument* to see the result'.
+*argument* to see the result'.*/
 
 
 function trigger(K, callback){
@@ -55,11 +156,11 @@ function trigger(K, callback){
         counter = 0; 
         results[arg] = callback(arg);
         return callback(results[arg]);
-      }
-    else return please invoke function K-counter with arg to see ...
+      } else { 
       return `Please invoke the function ${K-counter} time(s) more with ${arg} to see the result` 
     } 
   }
+}
   const multiplyBy2 = (num) => num*2; 
   const myTrigger = trigger(3, multiplyBy2); 
   
@@ -67,17 +168,7 @@ function trigger(K, callback){
   console.log(myTrigger(5)) //=> 'Please invoke the function 1 time(s) more with 5 to see the result'.
   console.log(myTrigger(5)) //=> 10
   
-  // myTrigger(3) //=> 'Please invoke the function 2 time(s) more with 3 to see the result'. [[unsure about this one though lol-nick]]
-  
-  console.log(myTrigger(5)) //=> 'Please invoke the function 2 time(s) more with 5 to see the result'.
-  console.log(myTrigger(5)) //=> 'Please invoke the function 1 time(s) more with 5 to see the result'.
-  console.log(myTrigger(5)) //=> 20
-  
-  
-  K multiplyBy2(arg)
-  2K multiplyBy2(multiplyBy2(arg))
-  --------------------------------------------------------*/
-
+ 
   
   /* RECORD
   --------------------------------------------------------
@@ -135,17 +226,53 @@ function trigger(K, callback){
   console.log(addTwo(1)) //6
   console.log(addTwo(8)) //6
   
+  /*
+Declare a function called 'fundraiser', which will help keep track of donations towards a cause.
+When invoked, 'fundraiser' should return another function that's specific to a single cause's fundraising. The returned function should take one argument, representing a donation to that cause, and should keep track of the total donations received.
+The fundraising goal is reached once the total donations exceed a specified amount. On reaching the goal, return a message stating how much was raised. Any subsequent donation attempts after the goal has been reached should return a message stating that the fundraising goal has already been achieved.
 
- 
+Example:
+const schoolFund = fundraiser(500); // Goal is 500
+*/
+function fundrasier(goal){
+
+  let total = 0;
+      return (donation) => {
+          if(donation >= goal){
+              return 'Goal achieved!';
+          }
+          total = total + donation;
+          if(total >= goal) {
+              return `Goal reached with ${total}`
+          }
+      };
+  }
+  const schoolFund = fundrasier(500); // Goal is 500
+  console.log(schoolFund(100));
+  console.log(schoolFund(150));
+  console.log(schoolFund(200));
+  console.log(schoolFund(60)) // --> 'Goal reached with 510!'
+  console.log(schoolFund(20)) // --> 'Goal already achieved!'
   
-
+  
+  /*
 
 
 
  /***************** RECURSION ****************/
  
 
+/* RETURN FIRST REPEATING CHAR
+  --------------------------------------------------------
+Create a recursive function that takes a string and returns the first character that 
+repeats. If there is no repeat of a character, return "-1".
 
+firstRepeat("legolas") ➞ "l"
+
+firstRepeat("Gandalf") ➞ "a"
+
+firstRepeat("Balrog") ➞ "-1"
+*/
   /* ARRAY OF FUNCTIONS
   --------------------------------------------------------
   
@@ -156,7 +283,16 @@ function trigger(K, callback){
   
 
   --------------------------------------------------------------------------*/
-  
+ /* SUM ALL ELEMENTS
+  --------------------------------------------------------
+  Create a recursive function "sumAllElements" that takes in two arguments (an array of numbers and a initial value). 
+  "sumAllElements" will return the sum of the elements in the array starting at the initial value.
+
+  Example:
+  sumAllElements([1,2,3,4], 10) -> 20
+
+  Note: Do NOT use any native JS methods, or loops
+*/
 
 
 
@@ -184,50 +320,10 @@ function trigger(K, callback){
 
 
 
-  /***************** KEY CONCEPTS ****************
+  /***************** OTHER ****************
    
  
-  EXAMPLES OF VERBAL QUESTIONS YOU MAY NEED TO KNOW: 
-  What is the difference between var, let, const?
-  
-  •
-  
-  What is recursion?
-  
-  •
-  
-  What is closure?
-  
-  •
-  
-  What is scope?
-  
-  •
-  
-  What is a callback?
-  
-  •
-  
-  What is the difference between the &&
-  operator and the || operator?
-  
-  •
-  
-  What is pass by value vs pass by reference?
-  
-  •
-  
-  What is the difference between a parameter and an argument?
-  
-  •
-  
-  What is hoisting?
-  
-  •
-  
-  What is the difference between map & forEach?
-  
-  
+ 
   LINKS TO DOCUMENTS I MADE THAT GAVE ME AN IDEA ABOUT THE INTERVIEW PROCESS. LITTLE OUTDATED BUT STILL HELPFUL, AS CS PROBABLY STILL HAS JUST ABOUT THE SAME PROCESS
   
   https://docs.google.com/document/d/1fg9pzCJH0cT3LJfGatpAbjwBlhnuyKgFbi-UxLksLUE/edit
