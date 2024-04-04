@@ -136,3 +136,64 @@ Once question is clear, produce concrete inputs and outputs.
 Understanding prlbme, pseudo coding, explaining shld take about 30% of your time
 Do not talk while facing the board
 structi , codewith mosh, neetcode
+
+**************** 4/4/2024 *** ********
+Vid: Emotional Dysregulation and ADHD
+Emotion Tracker!  https://bit.ly/3D5fFVO
+Super Heart Award (blank) http://bit.ly/HTADHDSuperHeartAward
+Super Heart Award (like Jessica's) http://bit.ly/HTADHDSuperHeartAward2
+Explanation of how cognitive behavioral therapy helps: http://www.cbtdbtassociates.com/probl...
+Explanation of how cognitive behavioral therapy helps: http://www.cbtdbtassociates.com/probl...
+Emotional dysregulation and ADHD:
+https://www.additudemag.com/emotional...
+https://www.google.com/amp/adhdinadul... (edited) 
+
+
+Millán
+:flag-ps:  23 hours ago
+Programming Prompts!
+https://edabit.com/
+edabitedabit
+Edabit // Learn to Code with 10,000+ Interactive Challenges
+Our bite-sized challenges are a shortcut through the maze of learning to code. Gain XP, unlock achievements and level up. Get really good at coding, really fast. (9 kB)
+https://edabit.com/
+
+
+Millán
+:flag-ps:  23 hours ago
+LESSON OF THE DAY: STOP BOTTOMING FOR YOU BRAIN. :peach:  :eggplant::brain: (edited) 
+
+
+Millán
+:flag-ps:
+JSHP Recursion 3:30pst/6:30est
+4 replies
+
+
+Adry Ortiz
+  13 days ago
+Recursion - a function which calls upon itself
+
+
+Adry Ortiz
+  13 days ago
+recursion is an alternative solution to loops
+
+
+Adry Ortiz
+  13 days ago
+when doing recursion problems focus on the base case and the rest will flow
+
+Adry Ortiz
+  13 days ago
+volunteered to diagram
+
+WORKSHOP: How to Get Hired as a Software Engineer 530PT/830ET
+
+Adry Ortiz
+  1 hour ago
+Tips for applications: create flashcards one side: mention of you completing any problem solving and or Technical communication on program that relates to the company. Other side: mention or blog or lead views on daily work from team members(linkedin).
+
+Adry Ortiz
+  1 hour ago
+Being top tier with technical communication is everything, being able to get others to understand any program is key
