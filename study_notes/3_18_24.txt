@@ -212,3 +212,35 @@ Video is usually disjointed pieces of mental flotsam floating through cyberspace
 Video is processed by the brain 60,000 times faster than text says Psychology Today. It’s easier to interact with, bypasses your cognitive mind and drives straight to your emotions, and both favors and encourages lazy thinking. Reading on the other hand is interactive. You have to form mental pictures and focus on translating shapes on a page into ideas in your mind. The medium makes you a stronger, more disciplined thinker regardless of the content.
 If you’ve been alive for a while, you know that winning is about getting focused and losing is about being scattered. (edited) 
 
+******************** 4/14 ******************************
+
+Traditional Multi-Page: Each page is rendered with spereate html pages
+SPA (Single-page applications): are programs that run in a browser and don't require page reloads. SPAs use JavaScript and web APIs to communicate with the server. They load all other content using JavaScript and render pages directly in the browser.
+SSR (Server Side Rendering): Pages/components load on server but also have dynamic UIs (thats where React comes in)
+SSG (Static Site Generators): BA static site generator (SSG) is a software tool that uses raw data and templates to create a static HTML website. SSGs automate the process of coding individual HTML pages, and the resulting website is made up of HTML, CSS, and JavaScript files (edited) 
+
+******************* 4/15 ********************************
+STUDY GROUP MEETING NOTES
+Meeting minutes
+Poll to figure out what day works best bc Mondays is too close to Chris' group
+Target beginners that  are post precourse
+Helping ppl in help channel that need help with callback etc and invite them
+Go to Beginners Javascript WS
+Find a way of dividing responsibility
+study group tasks & responsibilities
+Find prompts and upload them to repo
+Faciliate: post community agreements, time problem solving, help with solving, post prompts
+Advertise study group: Workshops, help channel, weekly posting on general channel
+
+Millán
+:flag-ps:  1 day ago
+-This is a beginner's centered group
+-Each person can have 20mins to work through the problem on their own, at which point people can jump in to help (we encourage you to challenge yourself to do it on your own 20 but feel free to ask for a hint if you get stuck)
+-Folks can also ask for help within that time
+-Compassionate problem solving
+-Try not to all talk at the same time, wait for a pause
+-Please do not post your solution until the person is finished solving the problem!
+-Mute yourself while not talking
+-Give pseudocoding a chance!
+-Feel free to open your own csbin and copy problem to work on it yourself
+-Keep it positive and supportive! :slightly_smiling_face: (edited) 
