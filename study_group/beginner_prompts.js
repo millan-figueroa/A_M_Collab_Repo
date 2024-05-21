@@ -81,3 +81,46 @@ grades 60 to 69 should return "D"
 // console.log(lessThan100(22, 15)) // => true
 // console.log(lessThan100(83, 34)) // => false
 // console.log(lessThan100(3, 77))// => true
+
+// *****function and execution context
+
+//An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+function isogram(str) {
+    const pair = new Set()
+    
+    console.log(pair)
+  }
+  
+  console.log(isogram('Banana'))
+  
+  //Create a function addFour that accepts a number, and returns the number plus 4.
+  
+  //Create a function divisibleBy2 that accepts an arr of numbers, and returns true if every number in the array is divisiible by 2.
+  
+  //Write a function wereFriends that takes 2 names as paramaters and returns the string "[name1] and [name2] are friends!"
+  
+  
+  // ******Callbacks *********
+  
+  //Create a function reverseStrings that takes an array of strings as input and returns a new array with each string reversed. For example, if the string "hello" is in the input array, it should become the string "olleh" in the output array.
+  
+  function reverseStrings(array) {
+    // CODE HERE
+  }
+  
+  // Test cases
+  console.log(reverseStrings(["hello", "world"])); // ["olleh", "dlrow"]
+  
+  // Add code to the function arrToObj in the place marked "ADD CODE HERE" in order to achieve the desired console logs. arrToObj should return an object that has elements from the passed-in array as keys, and the outputs from the callback (when those elements are passed in) as the corresponding values.
+  
+  // ******* closure *******
+  
+  //Create a function reverseIterator that accepts an array and returns a function. The returned function will accept zero arguments. When first invoked, the returned function will return the last element of the array. When invoked a second time, the returned function will return the second to last element of the array, and so forth. After returning the first element of the array, the next invocation will return the last element again, and continue in reverse order.
+  
+  const reverse = reverseIterator([1, 2, 3, 4]);
+  console.log(reverse()); // 4
+  console.log(reverse()); // 3
+  console.log(reverse()); // 2
+  console.log(reverse()); // 1
+  console.log(reverse()); // 4
