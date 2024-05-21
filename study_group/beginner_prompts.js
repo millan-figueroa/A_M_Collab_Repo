@@ -81,3 +81,11 @@ grades 60 to 69 should return "D"
 // console.log(lessThan100(22, 15)) // => true
 // console.log(lessThan100(83, 34)) // => false
 // console.log(lessThan100(3, 77))// => true
+
+
+/*Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.*/
+//console.log(minMax([1, 2, 3, 4, 5])) //➞ [1, 5]
+//console.log(minMax([2334454, 5])) //➞ [5, 2334454]
+//console.log(minMax([1])) // ➞ [1, 1]
+
+//pull test
