@@ -169,8 +169,7 @@ grades 60 to 69 should return "D"
   // const capitalize = str => str.toUpperCase();
   // console.log(arrToObj(arrOfStrings, capitalize)); // should log: { beer: 'BEER', glue: 'GLUE' }
   
-  
-  
+  // TESTING
   
   
   
