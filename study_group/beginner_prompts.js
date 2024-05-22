@@ -144,6 +144,16 @@ grades 60 to 69 should return "D"
 console.log(repeatChars('a')); // => 'aaaaaaa'
 console.log(repeatChars('z')); // => 'zzzzzzz'
 
+/*Write a JavaScript function that prints numbers from 1 to 100. However, for multiples of 4, print "Quad" instead of the number, and for multiples of 6, print "Hex". For numbers which are multiples of both 4 and 6, print "QuadHex".*/
+// console.log(4);      // Expected output: "Quad"
+// console.log(5);      // Expected output: 5
+// console.log(6);      // Expected output: "Hex"
+// console.log(7);      // Expected output: 7
+// console.log(8);      // Expected output: "Quad"
+// console.log(9);      // Expected output: 9
+// console.log(10);     // Expected output: 10
+// console.log(11);     // Expected output: 11
+// console.log(12);     // Expected output: "QuadHex"
 // ************************************************* CALLBACKS *************************************************************************
 
 /* Write a function that takes in two functions (a and b), that don't take any parameters. Your function has to call them, and return a string which indicates which function returned the larger number.*/
