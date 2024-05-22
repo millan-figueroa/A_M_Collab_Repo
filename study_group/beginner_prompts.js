@@ -162,31 +162,6 @@ console.log(repeatChars('z')); // => 'zzzzzzz'
 //   console.log(isLarger(() => 25,  () => 25)) // => "neither"
 //   console.log(isLarger(() => 505050, () => 5050)) // => "a"
   
-  //********
-  //(EASY)
-  //********
-  
-  //********
-  //(MEDIUM)
-  //********
-  
-  
-  
-  //********
-  //(HARD)
-  //********  
-  
-  /* Create a function arrToObj that returns an object that has elements from the passed-in array as keys, and the outputs from the callback (when those elements are passed in) as the corresponding values.*/
-  
-  // Uncomment these to check your work!
-  // const arrOfStrings = ['beer', 'glue'];
-  // const capitalize = str => str.toUpperCase();
-  // console.log(arrToObj(arrOfStrings, capitalize)); // should log: { beer: 'BEER', glue: 'GLUE' }
-  
-  // TESTING
-  // Testing Two
-  
-  
 //An array is special if every even index contains an even number and every odd index contains an odd number. Create a function that returns true if an array is special, and false otherwise.
 
 // console.log(specialArr([2, 3, 4, 5])) // true
@@ -267,5 +242,30 @@ function filterByStartingLetter(arr, letter) {
 
 //console.log(filterByStartingLetter(["apple", "banana", "cherry", "apricot"], "a")); // ➞ ["apple", "apricot"]
 //console.log(filterByStartingLetter(["dog", "cat", "deer", "camel"], "c")); // ➞ ["cat", "camel"]
+
+  //********
+  //(EASY)
+  //********
+  
+  //********
+  //(MEDIUM)
+  //********
+  
+  
+  
+  //********
+  //(HARD)
+  //********  
+  
+  /* Create a function arrToObj that returns an object that has elements from the passed-in array as keys, and the outputs from the callback (when those elements are passed in) as the corresponding values.*/
+  
+  // Uncomment these to check your work!
+  // const arrOfStrings = ['beer', 'glue'];
+  // const capitalize = str => str.toUpperCase();
+  // console.log(arrToObj(arrOfStrings, capitalize)); // should log: { beer: 'BEER', glue: 'GLUE' }
+  
+  // TESTING
+  // Testing Two
+  
   
   
