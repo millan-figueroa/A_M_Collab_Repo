@@ -187,5 +187,85 @@ console.log(repeatChars('z')); // => 'zzzzzzz'
   // Testing Two
   
   
+//An array is special if every even index contains an even number and every odd index contains an odd number. Create a function that returns true if an array is special, and false otherwise.
+
+// console.log(specialArr([2, 3, 4, 5])) // true
+//console.log(specialArr([6, 5, 7, 3])) // false
+
+//Write a function specailReverse that reverses all the words in a sentence that start with a particular letter.
+
+//console.log(specialReverse("word searches are super fun", "s"))
+ // ➞ "word sehcraes are repus fun"
+
+//console.log(specialReverse("first man to walk on the moon", "m"))
+ // ➞ "first nam to walk on the noom"
+
+//console.log(specialReverse("peter piper picked pickled peppers", "p"))
+// ➞ "retep repip dekcip delkcip sreppep"
+
+//Create a function warOfNumbers that takes an array of integers, sums the even and odd numbers separately, then returns the difference between the sum of the even and odd numbers.
+
+//console.log(warOfNumbers([12, 90, 75])) // ➞ 27
+
+//console.log(warOfNumbers([5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243])) // ➞ 168
+
+//Create a function letterCounter that counts the number of times a particular letter shows up in the word search.
+
+/*console.log(letterCounter(
+  [["D", "E", "Y", "H", "A", "D"],                         
+  ["C", "B", "Z", "Y", "J", "K"],
+  ["D", "B", "C", "A", "M", "N"],
+  ["F", "G", "G", "R", "S", "R"],
+  ["V", "X", "H", "A", "S", "S"]
+], "D")) // ➞ 3 */
+
+/* console.log(letterCounter([
+  ["D", "E", "Y", "H", "A", "D"],
+  ["C", "B", "Z", "Y", "J", "K"],
+  ["D", "B", "C", "A", "M", "N"],
+  ["F", "G", "G", "R", "S", "R"],
+  ["V", "X", "H", "A", "S", "S"]
+], "H")) // ➞ 2 */
+
+//Create a function uniqueWords that takes an array of words and returns an array of words that appear only once in the input array.
+
+function uniqueWords(words) {
+  // Your code here
+}
+
+//console.log(uniqueWords(["apple", "banana", "apple", "orange", "banana", "grape"])); // ➞ ["orange", "grape"]
+//console.log(uniqueWords(["one", "two", "three", "one", "two", "four"])); // ➞ ["three", "four"]
+
+//Create a function flattenAndFilter that takes a nested array of numbers and a callback function. The function should flatten the array and filter out the numbers based on the callback function.
+
+function flattenAndFilter(arr, callback) {
+  // Your code here
+}
+
+//console.log(flattenAndFilter([1, [2, 3, [4, 5]]], num => num % 2 === 0)); // ➞ [2, 4]
+//console.log(flattenAndFilter([1, [2, [3, [4, 5, 6]]]], num => num > 3)); // ➞ [4, 5, 6]
+
+//Create a function longestWord that takes a string and returns the longest word in the string. If there are multiple words with the same length, return the first one.
+
+//console.log(longestWord("I love programming with JavaScript")); // ➞ "programming"
+//console.log(longestWord("The quick brown fox jumps over the lazy dog")); // ➞ "jumps"
+
+//Create a function filterByLength that takes an array of strings and a number. The function should return an array of strings that are longer than the given number.
+
+function filterByLength(arr, length) {
+  // Your code here
+}
+
+//console.log(filterByLength(["short", "medium", "longer", "longest"], 5)); // ➞ ["medium", "longer", "longest"]
+//console.log(filterByLength(["tiny", "small", "average", "big", "huge"], 4)); // ➞ ["small", "average"]
+
+//Create a function filterByStartingLetter that takes an array of strings and a letter. The function should return an array of strings that start with the given letter.
+
+function filterByStartingLetter(arr, letter) {
+  // Your code here
+}
+
+//console.log(filterByStartingLetter(["apple", "banana", "cherry", "apricot"], "a")); // ➞ ["apple", "apricot"]
+//console.log(filterByStartingLetter(["dog", "cat", "deer", "camel"], "c")); // ➞ ["cat", "camel"]
   
   
