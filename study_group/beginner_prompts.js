@@ -129,7 +129,7 @@ grades 60 to 69 should return "D"
 // countVowels("JavaScript is fun"); // Output: 5 
 
 
-/*Write a function repeating that checks if the passed in str has any repeating char. Function should return a boolean value */
+/*Write a function findRepeating that checks if the passed in str has any repeating char. Function should return a boolean value */
 
 //console.log(repeating('Banana')) // return false
 
@@ -139,8 +139,12 @@ grades 60 to 69 should return "D"
 // console.log(reverseStrings(["hello", "world"])); // ["olleh", "dlrow"]
 
 
+/*Write a function repeatChars that takes an input character and returns that character concated 7 times./*
 
-// *************************************************// CALLBACKS //*************************************************************************
+console.log(repeatChars('a')); // => 'aaaaaaa'
+console.log(repeatChars('z')); // => 'zzzzzzz'
+
+// ************************************************* CALLBACKS *************************************************************************
 
 /* Write a function that takes in two functions (a and b), that don't take any parameters. Your function has to call them, and return a string which indicates which function returned the larger number.*/
   
