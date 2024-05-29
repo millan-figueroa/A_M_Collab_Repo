@@ -73,6 +73,7 @@
 // console.log(meals(15)); // => 'Dinner Time!'
 // console.log(meaks(18)); // => 'Dinner Time!'
 
+
 /*Create a function gradeCalculator which takes a grade (number) and returns its letter grade.
 
 grades 90 and above should return "A"
@@ -90,6 +91,19 @@ grades 60 to 69 should return "D"
 // console.log(gradeCalculator(70)); // => "C"
 // console.log(gradeCalculator(61)); // => "D"
 // console.log(gradeCalculator(43)); // => "F"
+
+
+/*Write a JavaScript function that prints numbers from 4 to 12. However, for multiples of 4, print "Quad" instead of the number, and for multiples of 6, print "Hex". For numbers which are multiples of both 4 and 6, print "QuadHex".*/
+
+// console.log(4);      // Expected output: "Quad"
+// console.log(5);      // Expected output: 5
+// console.log(6);      // Expected output: "Hex"
+// console.log(7);      // Expected output: 7
+// console.log(8);      // Expected output: "Quad"
+// console.log(9);      // Expected output: 9
+// console.log(10);     // Expected output: 10
+// console.log(11);     // Expected output: 11
+// console.log(12);     // Expected output: "QuadHex"
   
 
 //********
@@ -102,7 +116,19 @@ grades 60 to 69 should return "D"
 //console.log(findPlurals(["cats", "dog", "houses", "car", "trees"])); // => ["cats", "houses", "trees"]
 
 
+/*Create a function warOfNumbers that takes an array of integers, sums the even and odd numbers separately, then returns the difference between the sum of the even and odd numbers.*/
+
+//console.log(warOfNumbers([12, 90, 75])) // ➞ 27
+
+//console.log(warOfNumbers([5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243])) // ➞ 168
+
+
+/*Write a function repeatChars that takes an input character and returns that character concated 7 times.*/
+
+// console.log(repeatChars('a')); // => 'aaaaaaa'
+// console.log(repeatChars('z')); // => 'zzzzzzz'
   
+
 /*Create a function divisibleBy2 that accepts an arr of numbers, and returns true if every number in the array is divisible by 2.*/
 
 //console.log(divisibleBy2([8,2,5,4])) // false
@@ -122,7 +148,6 @@ grades 60 to 69 should return "D"
 //console.log(minMax([1])) // ➞ [1, 1]
 
 
-  
 /*Write a function countVowels that takes a single string as an input and returns the count of vowels (i.e., 'a', 'e', 'i', 'o', 'u') in the input string.*/
 
 // countVowels("Hello World"); // Output: 3
@@ -132,6 +157,7 @@ grades 60 to 69 should return "D"
 /*Write a function findRepeating that checks if the passed in str has any repeating char. Function should return a boolean value */
 
 //console.log(repeating('Banana')) // return false
+//console.log(repeating('zoo')) // return true
 
 
 /*Create a function reverseStrings that takes an array of strings as input and returns a new array with each string reversed. For example, if the string "hello" is in the input array, it should become the string "olleh" in the output array*/
@@ -139,52 +165,13 @@ grades 60 to 69 should return "D"
 // console.log(reverseStrings(["hello", "world"])); // ["olleh", "dlrow"]
 
 
-/*Write a function repeatChars that takes an input character and returns that character concated 7 times./*
 
-console.log(repeatChars('a')); // => 'aaaaaaa'
-console.log(repeatChars('z')); // => 'zzzzzzz'
 
-/*Write a JavaScript function that prints numbers from 1 to 100. However, for multiples of 4, print "Quad" instead of the number, and for multiples of 6, print "Hex". For numbers which are multiples of both 4 and 6, print "QuadHex".*/
-// console.log(4);      // Expected output: "Quad"
-// console.log(5);      // Expected output: 5
-// console.log(6);      // Expected output: "Hex"
-// console.log(7);      // Expected output: 7
-// console.log(8);      // Expected output: "Quad"
-// console.log(9);      // Expected output: 9
-// console.log(10);     // Expected output: 10
-// console.log(11);     // Expected output: 11
-// console.log(12);     // Expected output: "QuadHex"
+
 // ************************************************* CALLBACKS *************************************************************************
 
-/* Write a function that takes in two functions (a and b), that don't take any parameters. Your function has to call them, and return a string which indicates which function returned the larger number.*/
-  
-//   console.log(isLarger(() => 5, () => 10)) // => "b"
-//   console.log(isLarger(() => 25,  () => 25)) // => "neither"
-//   console.log(isLarger(() => 505050, () => 5050)) // => "a"
-  
-//An array is special if every even index contains an even number and every odd index contains an odd number. Create a function that returns true if an array is special, and false otherwise.
 
-// console.log(specialArr([2, 3, 4, 5])) // true
-//console.log(specialArr([6, 5, 7, 3])) // false
-
-//Write a function specailReverse that reverses all the words in a sentence that start with a particular letter.
-
-//console.log(specialReverse("word searches are super fun", "s"))
- // ➞ "word sehcraes are repus fun"
-
-//console.log(specialReverse("first man to walk on the moon", "m"))
- // ➞ "first nam to walk on the noom"
-
-//console.log(specialReverse("peter piper picked pickled peppers", "p"))
-// ➞ "retep repip dekcip delkcip sreppep"
-
-//Create a function warOfNumbers that takes an array of integers, sums the even and odd numbers separately, then returns the difference between the sum of the even and odd numbers.
-
-//console.log(warOfNumbers([12, 90, 75])) // ➞ 27
-
-//console.log(warOfNumbers([5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243])) // ➞ 168
-
-//Create a function letterCounter that counts the number of times a particular letter shows up in the word search.
+/*Create a function letterCounter that counts the number of times a particular letter shows up in the word search.*/
 
 /*console.log(letterCounter(
   [["D", "E", "Y", "H", "A", "D"],                         
@@ -202,7 +189,8 @@ console.log(repeatChars('z')); // => 'zzzzzzz'
   ["V", "X", "H", "A", "S", "S"]
 ], "H")) // ➞ 2 */
 
-//Create a function uniqueWords that takes an array of words and returns an array of words that appear only once in the input array.
+
+/*Create a function uniqueWords that takes an array of words and returns an array of words that appear only once in the input array.*/
 
 function uniqueWords(words) {
   // Your code here
@@ -246,11 +234,20 @@ function filterByStartingLetter(arr, letter) {
   //********
   //(EASY)
   //********
+
+  /* Write a function that takes in two functions (a and b), that don't take any parameters. Your function has to call them, and return a string which indicates which function returned the larger number.*/
+  
+//   console.log(isLarger(() => 5, () => 10)) // => "b"
+//   console.log(isLarger(() => 25,  () => 25)) // => "neither"
+//   console.log(isLarger(() => 505050, () => 5050)) // => "a"
   
   //********
   //(MEDIUM)
   //********
-  
+  /*An array is special if every EVEN INDEX contains an EVEN NUMBER and every ODD INDEX contains an ODD NUMBER. Create a function that returns true if an array is special, and false otherwise.*/
+
+  // console.log(specialArr([2, 3, 4, 5])) // true
+  //console.log(specialArr([6, 5, 7, 3])) // false
   
   
   //********
