@@ -7,56 +7,59 @@
 //********
 
 
-/*Write a function wereFriends that takes 2 names as paramaters and returns the string "[name1] and [name2] are friends!"*/
+/* Write a function wereFriends that takes 2 names as paramaters and returns the string "[name1] and [name2] are friends!" */
 
 //console.log(wereFriends(Mary, Elizabeth)) // 'Mary and Elizabeth are friends!'
 
 
-/*Create a function multiply that accepts a number, and returns the number times itself.*/
+
+/* Create a function multiply that accepts a number, and returns the number times itself. */
 
 //console.log(multiply(5)); // => 25
 
 
 
-/*Create a function addFour that accepts a number, and returns the number plus 4.*/
+/* Create a function addFour that accepts a number, and returns the number plus 4. */
 
 //console.log(addFour(8)); // => 12
 
 
 
-/*Write a function minsToSecs that takes an integer minutes and converts it to seconds.*/
+/* Write a function minsToSecs that takes an integer minutes and converts it to seconds. Remember there's 60 secs in a min! */
 
 //console.log(minsToSecs(10)) => 600
 
 
 
-/*Create a function daysOld that takes the age in years and returns the age in days. It should return the string "I am (num) days old!"*/
+/* Create a function daysOld that takes any age in years and returns it in days. Remember 365 days in a year. For this problem, ignore leap years. It should return the string "I am (num) days old!" */
 
 //console.log(daysOld(age)); // =>'I am [age] days old!'
 
 
 
-/*Create a function addS that accepts a string and an array, and returns the third item of the array with the string added to the end.*/
+/* Create a function addS that accepts a string and an array, and returns the third item of the array with the string added to the end. */
 
 //console.log(addS('s', ['cat', 'dog', 'elephant', 'sloth'])); // => elephants
 
 
 
-/*Create a function secondLetter that takes a string and returns the index of first occurrence of the given string.*/
+/* Create a function secondLetter that takes a string and returns the index of first occurrence of the given string. */
 
 // console.log(lastLetter("hello"), "e"); //=> 1
 // console.log(lastLetter("goodbye!"), "y"); //=> 5
 // console.log(lastLetter("ZeltoiD"), "t"); //=> 3
 
 
-/*Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.*/
+
+/* Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false. */
 
 // console.log(lessThan100(22, 15)) // => true
 // console.log(lessThan100(83, 34)) // => false
 // console.log(lessThan100(3, 77))// => true
 
 
-/*Create a function getRemainder that takes two numbers and returns the remainder (value left over from division) of dividing the larger number by the smaller one.*/
+
+/* Create a function getRemainder that takes two numbers and returns the remainder (value left over from division) of dividing the larger number by the smaller one. */
 
 // console.log(getRemainder(17, 5)); // => 2
 // console.log(getRemainder(20, 5)); // => 0
@@ -65,13 +68,14 @@
 
 
 
-/*Using an IF/ELSE statement, write a function meals which returns 'Breakfast time!' if the hour is before 12, 'Lunch Time!' if the hour is before 15, or 'Dinner Time!' if the hour between 15 and 20.*/
+/* Using an IF/ELSE statement, write a function meals which returns 'Breakfast time!' if the hour is before 12, 'Lunch Time!' if the hour is before 15, or 'Dinner Time!' if the hour between 15 and 20. */
 
 // console.log(meals(8)); // => 'Breakfeast Time!'
 // console.log(meals(12)); // => 'Lunch Time!'
 // console.log(meals(14)); // => 'Lunch Time!'
 // console.log(meals(15)); // => 'Dinner Time!'
 // console.log(meaks(18)); // => 'Dinner Time!'
+
 
 
 /*Create a function gradeCalculator which takes a grade (number) and returns its letter grade.
