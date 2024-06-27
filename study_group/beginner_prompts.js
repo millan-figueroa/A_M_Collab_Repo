@@ -1,12 +1,63 @@
 
+/*Community Agreements: 
+-All levels are welcome but in this group we cover material from pre-course 2 through callbacks on CSX 
+-Mute yourself while someone is solving a problem 
+-You get 15-20mins to work through the problem on your own before we jump in to help you 
+-If you're stuck before time's up, ask for help, but we encourage you to keep trying until your time is up even if you hit a block! 
+-Try talking through what each line of code is doing, its ok if you don't know the 'correct' terminology yet! 
+-Keep it positive and supportive! :)
+
+https://us06web.zoom.us/j/84847921942?pwd=H6X6YbJ4jNLLSbjSLF5aUaIKnKSdOO.1
+
+Claim host: 339263
+
+CSbin Link: http://csbin.io/interview/community-study-group
+
+Paste at top of CSBin: 
+/* Welcome to Community Study Group! // Feel free to copy the problem and work on it yourself - just open csbin in a new tab but change the URL: http://csbin.io/unique-word // Join our Slack channel #community-study-group */
+
 
 // ****************************************************// FUNCTIONS AND EXE CONTEXT //*************************************************************************
 
-//********
-//(EASY)
-//********
+//*********************
+//(EASY) : Pre-Functions
+//*********************
+
+const synonyms = ['fantastic', 'wonderful', 'great'];
+const greetings = [];
+
+// 1.
+// Loop through the synonyms array. Each time, push a string into the greetings array. 
+// The string should have the format 'Have a [synonym] day!'
+// ADD CODE HERE
 
 
+// 2. 
+// Loop through the greetings array, logging each greeting to the console:
+// 'Have a fantastic day!'
+// 'Have a wonderful day!'
+// 'Have a great day!'
+// ADD CODE HERE
+
+
+//************************** */
+
+/*You are given an array of five numbers called increaseByTwo. Use a for loop to iterate through the array and increase each number by two.*/
+
+const increaseByTwo = [1, 2, 3, 4, 5];
+
+console.log(increaseByTwo) // -> should print [3, 4, 5, 6, 7];
+
+//************************** */
+
+/* Use an if statement to check if num is greater than 100. If num is greater than 100, reassign the value of final to null. Otherwise, set final to be two times the value of num. Console.log final to check your work!*/
+
+const num = 40;
+let final;
+
+//*********************
+//(EASY) : Functions
+//*********************
 /* Write a function wereFriends that takes 2 names as paramaters and returns the string "[name1] and [name2] are friends!" */
 
 //console.log(wereFriends(Mary, Elizabeth)) // 'Mary and Elizabeth are friends!'
